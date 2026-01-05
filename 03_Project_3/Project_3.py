@@ -1,10 +1,9 @@
 '''
-only enter the valid_card to run the program 
+ enter your choice number in the valid_card to run the program 
 
 '''
-
 valid_card = "1234567890"   # sample ATM card number
-balance = 10000              # initial balance
+balance = 10000              # initial balance you can take any other balance 
 
 card = input("Enter your ATM card number: ")
 
