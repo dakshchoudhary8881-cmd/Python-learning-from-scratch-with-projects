@@ -8,7 +8,7 @@ print(current_time)
 
 #only print hours of the time
 hour = int(time.strftime("%H"))
-
+ 
 if(hour > 4 and hour < 12):
     print("Good Morning Daksh")
 
