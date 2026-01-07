@@ -18,7 +18,7 @@ if length < 6:
 elif length >= 6 and has_letter and not has_digit:
     print("Password Strength: Medium")
     print("Reason: Add numbers to make it stronger")
-
+    
 elif length >= 6 and has_digit and not has_letter:
     print("Password Strength: Medium")
     print("Reason: Add letters to make it stronger")
